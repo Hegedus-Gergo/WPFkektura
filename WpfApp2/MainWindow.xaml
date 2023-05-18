@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+		
+    <Button x:Name="adatokszama" Content="Adatok száma" Click="adatokszama_Click"/>
+		
+		<Label x:Name="hosszSzam"/>
+		<Button x:Name="btnhosszSzam" Content="Ezek az utak teljesíthetőek" Click="btnhosszSzam_Click"/>
+		<Label x:Name="mennyiVan"/>
+		
+    <Button x:Name="pilis" Content="Mennyiben van 'Pilis'?" Click="pilis_Click"/>
+		
+	<Button x:Name="leghosszabb" Content="Leghosszabb útvonal" Click="leghosszabb_Click"/>
+	
+	<Button x:Name="fajl" Content="Fájl készítése" Click="fajl_Click"/>
+    </Grid>
+</Window>
